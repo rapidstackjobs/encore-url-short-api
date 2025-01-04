@@ -1,8 +1,8 @@
 {
-  "name": "url-shortener",
+  "name": "encore-url-short",
   "private": true,
   "version": "0.0.5",
-  "description": "Encore URL Shortener Tutorial",
+  "description": "Encore URL Shortener Demo",
   "license": "MPL-2.0",
   "type": "module",
   "scripts": {
