@@ -44,7 +44,7 @@ interface ListResponse {
 
 // List retrieves all URLs.
 export const list = api(
-  { expose: false, method: "GET", path: "/url" },
+  { expose: true, auth: false, method: "GET", path: "/url/list" },
   async (): Promise<ListResponse> => {
     const rows = db.query`
         SELECT id, original_url
